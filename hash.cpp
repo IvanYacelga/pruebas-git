@@ -124,28 +124,6 @@ TablaHash::~TablaHash() {
 // =====================
 int main() {
     TablaHash th(7);
-
-    th.insertar(10, 100);
-    th.insertar(3, 200);
-    th.insertar(17, 300);
-    th.insertar(24, 400);
-    th.insertar(31, 500);
-    th.mostrar(); 
-
-    cout << "Tabla hash:\n";
-    th.mostrar();
-
-    cout << "\nBuscar clave 17: ";
-    if (th.buscar(17))
-        cout << "Encontrada\n";
-    else
-        cout << "No encontrada\n";
-
-    cout << "\nEliminar clave 17\n";
-    th.eliminar(17);
-
-    cout << "\nTabla hash actualizada:\n";
-    th.mostrar();
-
+    // main eliminado vovler a crearlo 
     return 0;
 }
